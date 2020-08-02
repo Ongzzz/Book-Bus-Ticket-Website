@@ -1,0 +1,257 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<?php
+	//head
+	include "head.php";
+?>
+
+<?php
+		echo "<body onload=\"updateClock(); setInterval('updateClock()', 1000 )\">";
+		
+		//preloader
+		include "preloader.php";
+		//header
+		include "headerWC.php";?>
+
+<?php
+
+include 'header.php';
+print "                <h1><strong>List of bus</strong></h1>\n";
+print "                <div class=\"custom-breadcrumbs\"><a href=\"index.php\">Home</a> <span class=\"mx-2\">/</span> <strong>List of bus</strong></div>\n";
+print "              </div>\n";
+print "\n";
+print "            </div>\n";
+print "          </div>\n";
+print "        </div>\n";
+print "      </div>\n";
+print "  \n";
+print "\n";
+print "\n";
+print "\n";
+print "      \n";
+print "\n";
+print "    <div class=\"site-section bg-light\">\n";
+print "      <div class=\"container\">\n";
+print "        <div class=\"row\">\n";
+print "          <div class=\"col-lg-7\">\n";
+print "            <h2 class=\"section-heading\"><strong>Types of bus available</strong></h2>\n";
+print "            <p class=\"mb-5\"></p>    \n";
+print "          </div>\n";
+print "        </div>\n";
+print "        \n";
+print "\n";
+print "        <div class=\"row\">\n";
+print "          <div class=\"col-md-6 col-lg-4 mb-4\">\n";
+print "\n";
+print "            <div class=\"listing d-block  align-items-stretch\">\n";
+print "              <div class=\"listing-img h-100 mr-4\">\n";
+print "                <img src=\"images/rapid.jpg\" alt=\"Image\" class=\"img-fluid\">\n";
+print "              </div>\n";
+print "              <div class=\"listing-contents h-100\">\n";
+print "                <h3>Rapid Bus</h3>\n";
+print "                <div class=\"rent-price\">\n";
+print "                  <strong>RM15.00</strong><span class=\"mx-1\">/</span>ticket\n";
+print "                </div>\n";
+print "                <div class=\"d-block d-md-flex mb-3 border-bottom pb-3\">\n";
+print "                  <div class=\"listing-feature pr-4\">\n";
+print "                    <span class=\"caption\">Luggage:</span>\n";
+print "                    <span class=\"number\">20</span>\n";
+print "                  </div>\n";
+print "                  <div class=\"listing-feature pr-4\">\n";
+print "                    <span class=\"caption\">Doors:</span>\n";
+print "                    <span class=\"number\">4</span>\n";
+print "                  </div>\n";
+print "                  <div class=\"listing-feature pr-4\">\n";
+print "                    <span class=\"caption\">Passenger:</span>\n";
+print "                    <span class=\"number\">20</span>\n";
+print "                  </div>\n";
+print "                </div>\n";
+print "                <div>\n";
+print "                  <p>Rapid Bus is one of the most famous buses in Malaysia. They are just like their name, very rapid. </p>\n";
+print "                  <p><a href=\"specificBus.php?name=rapid\" class=\"btn btn-primary btn-sm\">Buy ticket now</a></p>\n";
+print "                </div>\n";
+print "              </div>\n";
+print "\n";
+print "            </div>\n";
+print "          </div>\n";
+print "\n";
+print "          <div class=\"col-md-6 col-lg-4 mb-4\">\n";
+print "\n";
+print "            <div class=\"listing d-block  align-items-stretch\">\n";
+print "              <div class=\"listing-img h-100 mr-4\">\n";
+print "                <img src=\"images/aeroline.jpg\" alt=\"Image\" class=\"img-fluid\">\n";
+print "              </div>\n";
+print "              <div class=\"listing-contents h-100\">\n";
+print "                <h3>Aeroline Malaysia Express Bus</h3>\n";
+print "                <div class=\"rent-price\">\n";
+print "                  <strong>RM20.00</strong><span class=\"mx-1\">/</span>ticket\n";
+print "                </div>\n";
+print "                <div class=\"d-block d-md-flex mb-3 border-bottom pb-3\">\n";
+print "                  <div class=\"listing-feature pr-4\">\n";
+print "                    <span class=\"caption\">Luggage:</span>\n";
+print "                    <span class=\"number\">25</span>\n";
+print "                  </div>\n";
+print "                  <div class=\"listing-feature pr-4\">\n";
+print "                    <span class=\"caption\">Doors:</span>\n";
+print "                    <span class=\"number\">2</span>\n";
+print "                  </div>\n";
+print "                  <div class=\"listing-feature pr-4\">\n";
+print "                    <span class=\"caption\">Passenger:</span>\n";
+print "                    <span class=\"number\">30</span>\n";
+print "                  </div>\n";
+print "                </div>\n";
+print "                <div>\n";
+print "                  <p>It is known as the most fabulous bus in Malaysia. The seat is extremely confortable, said by the passengers.</p>\n";
+print "                  <p><a href=\"specificBus.php?name=aeroline\" class=\"btn btn-primary btn-sm\">Buy ticket now</a></p>\n";
+print "                </div>\n";
+print "              </div>\n";
+print "\n";
+print "            </div>\n";
+print "          </div>\n";
+print "          \n";
+print "\n";
+print "          <div class=\"col-md-6 col-lg-4 mb-4\">\n";
+print "\n";
+print "            <div class=\"listing d-block  align-items-stretch\">\n";
+print "              <div class=\"listing-img h-100 mr-4\">\n";
+print "                <img src=\"images/nice.jpg\" alt=\"Image\" class=\"img-fluid\">\n";
+print "              </div>\n";
+print "              <div class=\"listing-contents h-100\">\n";
+print "                <h3>NiCE Malaysia Express Bus</h3>\n";
+print "                <div class=\"rent-price\">\n";
+print "                  <strong>RM10.00</strong><span class=\"mx-1\">/</span>ticket\n";
+print "                </div>\n";
+print "                <div class=\"d-block d-md-flex mb-3 border-bottom pb-3\">\n";
+print "                  <div class=\"listing-feature pr-4\">\n";
+print "                    <span class=\"caption\">Luggage:</span>\n";
+print "                    <span class=\"number\">25</span>\n";
+print "                  </div>\n";
+print "                  <div class=\"listing-feature pr-4\">\n";
+print "                    <span class=\"caption\">Doors:</span>\n";
+print "                    <span class=\"number\">2</span>\n";
+print "                  </div>\n";
+print "                  <div class=\"listing-feature pr-4\">\n";
+print "                    <span class=\"caption\">Passenger:</span>\n";
+print "                    <span class=\"number\">30</span>\n";
+print "                  </div>\n";
+print "                </div>\n";
+print "                <div>\n";
+print "                  <p>It is a nice and confortable bus. It is favoured by Malaysians as the ticket price is cheap.</p>\n";
+print "                  <p><a href=\"specificBus.php?name=nice\" class=\"btn btn-primary btn-sm\">Buy ticket now</a></p>\n";
+print "                </div>\n";
+print "              </div>\n";
+print "\n";
+print "            </div>\n";
+print "          </div>\n";
+print "\n";
+print "          <div class=\"col-md-6 col-lg-4 mb-4\">\n";
+print "\n";
+print "            <div class=\"listing d-block  align-items-stretch\">\n";
+print "              <div class=\"listing-img h-100 mr-4\">\n";
+print "                <img src=\"images/transter.jpg\" alt=\"Image\" class=\"img-fluid\">\n";
+print "              </div>\n";
+print "              <div class=\"listing-contents h-100\">\n";
+print "                <h3>Transtar Travel Malaysia Express Bus</h3>\n";
+print "                <div class=\"rent-price\">\n";
+print "                  <strong>RM20.00</strong><span class=\"mx-1\">/</span>ticket\n";
+print "                </div>\n";
+print "                <div class=\"d-block d-md-flex mb-3 border-bottom pb-3\">\n";
+print "                  <div class=\"listing-feature pr-4\">\n";
+print "                    <span class=\"caption\">Luggage:</span>\n";
+print "                    <span class=\"number\">25</span>\n";
+print "                  </div>\n";
+print "                  <div class=\"listing-feature pr-4\">\n";
+print "                    <span class=\"caption\">Doors:</span>\n";
+print "                    <span class=\"number\">2</span>\n";
+print "                  </div>\n";
+print "                  <div class=\"listing-feature pr-4\">\n";
+print "                    <span class=\"caption\">Passenger:</span>\n";
+print "                    <span class=\"number\">30</span>\n";
+print "                  </div>\n";
+print "                </div>\n";
+print "                <div>\n";
+print "                  <p>One of the best buses in Malaysia. It has 10 years of history.</p>\n";
+print "                  <p><a href=\"specificBus.php?name=transtar\" class=\"btn btn-primary btn-sm\">Buy ticket now</a></p>\n";
+print "                </div>\n";
+print "              </div>\n";
+print "\n";
+print "            </div>\n";
+print "          </div>\n";
+print "\n";
+print "        </div>\n";
+
+print "      </div>\n";
+print "    </div>\n";
+print "\n";
+print "    \n";
+print "\n";
+print "    <div class=\"site-section\">\n";
+print "      <div class=\"container\">\n";
+print "        <div class=\"row\">\n";
+print "          <div class=\"col-lg-7\">\n";
+print "            <h2 class=\"section-heading\"><strong>Testimonials</strong></h2>\n";
+print "            <p class=\"mb-5\">Some well-known people's comment on our website:</p>    \n";
+print "          </div>\n";
+print "        </div>\n";
+print "        <div class=\"row\">\n";
+print "          <div class=\"col-lg-4 mb-4 mb-lg-0\">\n";
+print "            <div class=\"testimonial-2\">\n";
+print "              <blockquote class=\"mb-4\">\n";
+print "                <p>\"It is indeed a good website. The customer service is speedy and effective.\"</p>\n";
+print "              </blockquote>\n";
+print "              <div class=\"d-flex v-card align-items-center\">\n";
+print "                <img src=\"images/person_1.jpg\" alt=\"Image\" class=\"img-fluid mr-3\">\n";
+print "                <div class=\"author-name\">\n";
+print "                  <span class=\"d-block\">Mike Fisher</span>\n";
+print "                  <span>CEO of Sony</span>\n";
+print "                </div>\n";
+print "              </div>\n";
+print "            </div>\n";
+print "          </div>\n";
+print "          <div class=\"col-lg-4 mb-4 mb-lg-0\">\n";
+print "            <div class=\"testimonial-2\">\n";
+print "              <blockquote class=\"mb-4\">\n";
+print "                <p>\"An excellent website. I use it to buy bus ticket almost every day!\"</p>\n";
+print "              </blockquote>\n";
+print "              <div class=\"d-flex v-card align-items-center\">\n";
+print "                <img src=\"images/person_2.jpg\" alt=\"Image\" class=\"img-fluid mr-3\">\n";
+print "                <div class=\"author-name\">\n";
+print "                  <span class=\"d-block\">Jean Stanley</span>\n";
+print "                  <span>CEO of Apple</span>\n";
+print "                </div>\n";
+print "              </div>\n";
+print "            </div>\n";
+print "          </div>\n";
+print "          <div class=\"col-lg-4 mb-4 mb-lg-0\">\n";
+print "            <div class=\"testimonial-2\">\n";
+print "              <blockquote class=\"mb-4\">\n";
+print "                <p>\"Very useful website! It makes my life easier!\"</p>\n";
+print "              </blockquote>\n";
+print "              <div class=\"d-flex v-card align-items-center\">\n";
+print "                <img src=\"images/person_3.jpg\" alt=\"Image\" class=\"img-fluid mr-3\">\n";
+print "                <div class=\"author-name\">\n";
+print "                  <span class=\"d-block\">Katie Rose</span>\n";
+print "                  <span >Prime Minister of Malaysia</span>\n";
+print "                </div>\n";
+print "              </div>\n";
+print "            </div>\n";
+print "          </div>\n";
+print "        </div>\n";
+print "      </div>\n";
+print "    </div>\n";
+print "\n";
+include 'footer1.php';
+print "  </body>\n";
+print "\n";
+print "</html>\n";
+print "\n";
+
+?>
+
+<?php
+	include "jsscripts.php";
+	//back to top button
+	include "btn_backtotop.php";?>
+
